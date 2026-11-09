@@ -30,6 +30,14 @@ version = "1.0.0"
 group= "com.chewylopez.echoofthefarlands" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "echoofthefarlands"
 
+// ForgeGradle 2.1 defaults to -source/-target 1.6, which emits Java 6 bytecode, blocks
+// lambdas, and warns about the unset bootstrap classpath. 1.8.9 runs on Java 8 in
+// practice, and this keeps the language level consistent with the other legacy targets.
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    sourceCompatibility = targetCompatibility = "1.8"
+}
+
 minecraft {
     version = "1.8.9-11.15.1.2318-1.8.9"
     runDir = "run"
