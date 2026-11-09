@@ -1,0 +1,26 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea/*
+# ...but keep the run configurations. ForgeGradle 2.1's genIntellijRuns writes into
+# the legacy .iws file that modern IntelliJ no longer creates, so unlike the other
+# legacy workspaces these are maintained by hand and must not be lost.
+!.idea/runConfigurations/
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run

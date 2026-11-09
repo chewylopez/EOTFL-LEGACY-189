@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Hand-written: ForgeGradle 2.1's genIntellijRuns task writes into the legacy .iws
+     project file, which modern IntelliJ no longer generates. GradleStart is generated
+     by the makeStart task with the asset/natives/version arguments already baked in,
+     so this configuration needs nothing beyond the main class and working directory. -->
+<component>
+  <configuration default="false" factoryName="Application" name="runClient" singleton="false" type="Application">
+    <option name="MAIN_CLASS_NAME" value="GradleStart"/>
+    <option name="VM_PARAMETERS" value="-Xmx4G -Dfml.coreMods.load="/>
+    <option name="PROGRAM_PARAMETERS" value=""/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run"/>
+    <module name="EOTFL-LEGACY-189.main"/>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+    </method>
+  </configuration>
+</component>

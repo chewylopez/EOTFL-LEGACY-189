@@ -1,0 +1,16 @@
+[
+{
+  "modid": "echoofthefarlands",
+  "name": "Echo of the Farlands",
+  "description": "world gen mod, deeper worlds, re-introduces the far lands",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Chewylopez"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

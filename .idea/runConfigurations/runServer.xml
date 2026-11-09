@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- See the note in runClient.xml about why this is hand-written. -->
+<component>
+  <configuration default="false" factoryName="Application" name="runServer" singleton="false" type="Application">
+    <option name="MAIN_CLASS_NAME" value="GradleStartServer"/>
+    <option name="VM_PARAMETERS" value="-Xmx4G"/>
+    <option name="PROGRAM_PARAMETERS" value="nogui"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run"/>
+    <module name="EOTFL-LEGACY-189.main"/>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+    </method>
+  </configuration>
+</component>
